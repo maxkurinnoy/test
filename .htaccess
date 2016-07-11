@@ -1,0 +1,6 @@
+# Запрос: http://example.com/a.html
+
+RewriteBase /
+
+RewriteRule ^a.html$ b.html [L]
+RewriteRule ^b.html$ a.html [L]
